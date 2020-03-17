@@ -1,4 +1,15 @@
 {
+    "transmission": {
+        "MANIFEST": "transmission.json",
+        "name": "Transmission",
+        "icon": "https://www.trueos.org/iocage-icons/transmission.png",
+        "description": "Fast and lightweight BitTorrent client.",
+        "official": true,
+        "primary_pkg": "transmission-daemon",
+        "category": "content",
+        "maintainer": "PersonalBSD <p9rs0nalbsd@gmail.com>",
+        "homepage": "https://transmissionbt.com/"
+    },
     "nextcloud": {
         "MANIFEST": "nextcloud.json",
         "name": "Nextcloud",
@@ -9,15 +20,5 @@
         "category": "collaboration",
         "maintainer": "PersonalBSD <p9rs0nalbsd@gmail.com>",
         "homepage": "https://nextcloud.com/"
-    },
-    "transmission": {
-        "MANIFEST": "transmission.json",
-        "name": "Transmission",
-        "icon": "https://www.trueos.org/iocage-icons/transmission.png",
-        "description": "Fast and lightweight BitTorrent client.",
-        "official": true,
-        "primary_pkg": "transmission-daemon",
-        "category": "content",
-        "maintainer": "PersonalBSD <p9rs0nalbsd@gmail.com>",
     }
 }
