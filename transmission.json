@@ -9,7 +9,7 @@
     },
     "pkgs": [
         "transmission-daemon",
-        "transmission-cli"
+        "transmission-cli",
         "transmission-web"
     ],
     "packagesite": "http://pkg.kubsu.ru/${ABI}-default",
