@@ -1,24 +1,35 @@
 {
-    "transmission": {
-        "MANIFEST": "transmission.json",
-        "name": "Transmission",
-        "icon": "https://www.trueos.org/iocage-icons/transmission.png",
-        "description": "Fast and lightweight BitTorrent client.",
+    "minidlna": {
+        "MANIFEST": "minidlna.json",
+        "name": "MiniDLNA",
+        "icon": "http://personalnas.org/iocage-icons/deluge.png",
+        "description": "Media-server compatible with Digital Life Network Alliance.",
         "official": true,
-        "primary_pkg": "transmission-daemon",
+        "primary_pkg": "minidlna",
         "category": "content",
         "maintainer": "PersonalBSD <p9rs0nalbsd@gmail.com>",
-        "homepage": "https://transmissionbt.com/"
+        "homepage": "https://sourceforge.net/projects/minidlna/"
     },
     "nextcloud": {
         "MANIFEST": "nextcloud.json",
         "name": "Nextcloud",
-        "icon": "https://www.trueos.org/iocage-icons/nextcloud.png",
+        "icon": "http://personalnas.org/iocage-icons/nextcloud.png",
         "description": "Suite of client-server software for creating and using file hosting services.",
         "official": true,
         "primary_pkg": "nextcloud-php72",
         "category": "collaboration",
         "maintainer": "PersonalBSD <p9rs0nalbsd@gmail.com>",
         "homepage": "https://nextcloud.com/"
+    },
+    "transmission": {
+        "MANIFEST": "transmission.json",
+        "name": "Transmission",
+        "icon": "http://personalnas.org/iocage-icons/transmission.png",
+        "description": "Fast and lightweight BitTorrent client.",
+        "official": true,
+        "primary_pkg": "transmission-daemon",
+        "category": "content",
+        "maintainer": "PersonalBSD <p9rs0nalbsd@gmail.com>",
+        "homepage": "https://transmissionbt.com/"
     }
 }

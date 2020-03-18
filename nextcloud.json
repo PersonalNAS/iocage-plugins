@@ -11,7 +11,7 @@
         "nextcloud-php72",
         "lighttpd"
     ],
-    "packagesite": "http://pkg.kubsu.ru/${ABI}-default",
+    "packagesite": "http://pkg.personalnas.org/${ABI}-default",
     "fingerprints": {
         "iocage-plugins": [
             {
